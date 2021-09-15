@@ -17,6 +17,7 @@ body {
   padding: 15% 5%;
   background: #fbfef9;
   color: #222;
+  font-family: "Poppins", sans-serif;
 }
 
 .container {
@@ -90,5 +91,8 @@ li {
 
 .hw_list li:hover {
   background-color: #65afff;
-  color: white !important;
+}
+
+.hw_list li:hover a {
+  color: white;
 }
